@@ -56,3 +56,64 @@ sudo apt-get install pkg-config libssl-dev -y
 ```
 cargo build
 ```
+Copy private key, from wallet, go to LEO WALLET settings, click on reveal private key and copy
+
+`leo account import "private key"`
+
+## Let’s initiate the example file
+
+```
+leo example tictactoe
+```
+
+```
+cd tictactoe && leo run new
+```
+
+## Initialize Repo with main branch
+
+```
+git init -b main && git add .
+```
+
+```
+git config --global user.email "replace-here -with -email"
+```
+
+```
+git commit -m "My first commit"
+```
+
+CREATING GIT REPO:
+Visit Github — https://github.com/
+
+Create a “New Repository”
+
+## Back to Terminal
+
+```
+git branch -m main
+```
+
+```
+git remote add origin "Replace-with repo-link"
+```
+
+## Push into Repo
+
+```
+git remote -v && git push -u origin main
+```
+
+In the password field, we are gonna generate an OTP
+
+Visit: https://github.com/settings/tokens/new
+
+## CLAIMING BADGE 🏆
+Visit the issues — — https://github.com/AleoHQ/leo/issues
+
+Click on “Create New Issue”
+
+DONE WAIT TO BE APPROVED
+
+
