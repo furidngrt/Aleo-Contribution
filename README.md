@@ -56,6 +56,17 @@ sudo apt-get install pkg-config libssl-dev -y
 ```
 cargo build
 ```
+
+## Clone Repo
+
+```
+git clone https://github.com/AleoHQ/leo
+
+cd leo
+
+cargo install --path .
+```
+
 Copy private key, from wallet, go to LEO WALLET settings, click on reveal private key and copy
 
 `leo account import "private key"`
